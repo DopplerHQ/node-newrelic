@@ -149,13 +149,14 @@ function createAgent(config) {
     throw new Error(message)
   }
 
-  const shimmer = require('./lib/shimmer')
-  shimmer.patchModule(agent)
-  shimmer.bootstrapInstrumentation(agent)
+  console.log('DOPPLER_NEWRELIC: Skipping instrumentation')
+  // const shimmer = require('./lib/shimmer')
+  // shimmer.patchModule(agent)
+  // shimmer.bootstrapInstrumentation(agent)
 
-  // Check for already loaded modules and warn about them.
-  const uninstrumented = require('./lib/uninstrumented')
-  uninstrumented.check(shimmer.registeredInstrumentations)
+  // // Check for already loaded modules and warn about them.
+  // const uninstrumented = require('./lib/uninstrumented')
+  // uninstrumented.check(shimmer.registeredInstrumentations)
 
   agent.start(function afterStart(error) {
     if (error) {
