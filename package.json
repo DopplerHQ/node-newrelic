@@ -170,8 +170,7 @@
     "versioned:legacy-context": "NEW_RELIC_FEATURE_FLAG_LEGACY_CONTEXT_MANAGER=1 npm run versioned",
     "versioned:legacy_context:major": "NEW_RELIC_FEATURE_FLAG_LEGACY_CONTEXT_MANAGER=1 npm run versioned:major",
     "versioned:security": "NEW_RELIC_SECURITY_AGENT_ENABLED=true npm run versioned",
-    "versioned:security:major": "NEW_RELIC_SECURITY_AGENT_ENABLED=true npm run versioned:major",
-    "prepare": "husky install"
+    "versioned:security:major": "NEW_RELIC_SECURITY_AGENT_ENABLED=true npm run versioned:major"
   },
   "bin": {
     "newrelic-naming-rules": "./bin/test-naming-rules.js"

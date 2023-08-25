@@ -24,11 +24,9 @@ code, the source code can be found at [https://github.com/newrelic/node-newrelic
 * [@tyriar/fibonacci-heap](#tyriarfibonacci-heap)
 * [concat-stream](#concat-stream)
 * [https-proxy-agent](#https-proxy-agent)
-* [import-in-the-middle](#import-in-the-middle)
 * [json-bigint](#json-bigint)
 * [json-stringify-safe](#json-stringify-safe)
 * [readable-stream](#readable-stream)
-* [require-in-the-middle](#require-in-the-middle)
 * [semver](#semver)
 * [winston-transport](#winston-transport)
 
@@ -67,7 +65,6 @@ code, the source code can be found at [https://github.com/newrelic/node-newrelic
 * [memcached](#memcached)
 * [nock](#nock)
 * [prettier](#prettier)
-* [proxy](#proxy)
 * [proxyquire](#proxyquire)
 * [q](#q)
 * [rimraf](#rimraf)
@@ -537,7 +534,7 @@ SOFTWARE.
 
 ### @newrelic/aws-sdk
 
-This product includes source derived from [@newrelic/aws-sdk](https://github.com/newrelic/node-newrelic-aws-sdk) ([v6.0.0](https://github.com/newrelic/node-newrelic-aws-sdk/tree/v6.0.0)), distributed under the [Apache-2.0 License](https://github.com/newrelic/node-newrelic-aws-sdk/blob/v6.0.0/LICENSE):
+This product includes source derived from [@newrelic/aws-sdk](https://github.com/newrelic/node-newrelic-aws-sdk) ([v5.0.5](https://github.com/newrelic/node-newrelic-aws-sdk/tree/v5.0.5)), distributed under the [Apache-2.0 License](https://github.com/newrelic/node-newrelic-aws-sdk/blob/v5.0.5/LICENSE):
 
 ```
                                  Apache License
@@ -954,7 +951,7 @@ Apache License
 
 ### @newrelic/security-agent
 
-This product includes source derived from [@newrelic/security-agent](https://github.com/newrelic/csec-node-agent) ([v0.2.1](https://github.com/newrelic/csec-node-agent/tree/v0.2.1)), distributed under the [New Relic Pre-Release License](https://github.com/newrelic/csec-node-agent/blob/v0.2.1/LICENSE):
+This product includes source derived from [@newrelic/security-agent](https://github.com/newrelic/csec-node-agent) ([v0.1.2](https://github.com/newrelic/csec-node-agent/tree/v0.1.2)), distributed under the [UNKNOWN License](https://github.com/newrelic/csec-node-agent/blob/v0.1.2/LICENSE):
 
 ```
 ## New Relic Pre-Release Software Notice
@@ -1274,7 +1271,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ### https-proxy-agent
 
-This product includes source derived from [https-proxy-agent](https://github.com/TooTallNate/proxy-agents) ([v7.0.1](https://github.com/TooTallNate/proxy-agents/tree/v7.0.1)), distributed under the [MIT License](https://github.com/TooTallNate/proxy-agents/blob/v7.0.1/README.md):
+This product includes source derived from [https-proxy-agent](https://github.com/TooTallNate/node-https-proxy-agent) ([v5.0.1](https://github.com/TooTallNate/node-https-proxy-agent/tree/v5.0.1)), distributed under the [MIT License](https://github.com/TooTallNate/node-https-proxy-agent/blob/v5.0.1/README.md):
 
 ```
 MIT License
@@ -1286,27 +1283,6 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-```
-
-### import-in-the-middle
-
-This product includes source derived from [import-in-the-middle](https://github.com/DataDog/import-in-the-middle) ([v1.4.2](https://github.com/DataDog/import-in-the-middle/tree/v1.4.2)), distributed under the [Apache-2.0 License](https://github.com/DataDog/import-in-the-middle/blob/v1.4.2/LICENSE):
-
-```
-Copyright 2021 Datadog, Inc.
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-
 ```
 
 ### json-bigint
@@ -1415,39 +1391,9 @@ IN THE SOFTWARE.
 
 ```
 
-### require-in-the-middle
-
-This product includes source derived from [require-in-the-middle](https://github.com/elastic/require-in-the-middle) ([v7.2.0](https://github.com/elastic/require-in-the-middle/tree/v7.2.0)), distributed under the [MIT License](https://github.com/elastic/require-in-the-middle/blob/v7.2.0/LICENSE):
-
-```
-The MIT License (MIT)
-
-Copyright (c) 2016-2019, Thomas Watson Steen
-Copyright (c) 2019-2023, Elasticsearch B.V.
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-```
-
 ### semver
 
-This product includes source derived from [semver](https://github.com/npm/node-semver) ([v7.5.4](https://github.com/npm/node-semver/tree/v7.5.4)), distributed under the [ISC License](https://github.com/npm/node-semver/blob/v7.5.4/LICENSE):
+This product includes source derived from [semver](https://github.com/npm/node-semver) ([v5.7.1](https://github.com/npm/node-semver/tree/v5.7.1)), distributed under the [ISC License](https://github.com/npm/node-semver/blob/v5.7.1/LICENSE):
 
 ```
 The ISC License
@@ -1920,7 +1866,7 @@ This product includes source derived from [@newrelic/newrelic-oss-cli](https://g
 
 ### @newrelic/test-utilities
 
-This product includes source derived from [@newrelic/test-utilities](https://github.com/newrelic/node-test-utilities) ([v7.3.2](https://github.com/newrelic/node-test-utilities/tree/v7.3.2)), distributed under the [Apache-2.0 License](https://github.com/newrelic/node-test-utilities/blob/v7.3.2/LICENSE):
+This product includes source derived from [@newrelic/test-utilities](https://github.com/newrelic/node-test-utilities) ([v7.3.1](https://github.com/newrelic/node-test-utilities/tree/v7.3.1)), distributed under the [Apache-2.0 License](https://github.com/newrelic/node-test-utilities/blob/v7.3.1/LICENSE):
 
 ```
                                  Apache License
@@ -9307,22 +9253,6 @@ By: Ika
 
 ```
 
-### proxy
-
-This product includes source derived from [proxy](https://github.com/TooTallNate/proxy-agents) ([v2.1.1](https://github.com/TooTallNate/proxy-agents/tree/v2.1.1)), distributed under the [MIT License](https://github.com/TooTallNate/proxy-agents/blob/v2.1.1/README.md):
-
-```
-MIT License
-
-Copyright (c) <year> <copyright holders>
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-```
-
 ### proxyquire
 
 This product includes source derived from [proxyquire](https://github.com/thlorenz/proxyquire) ([v1.8.0](https://github.com/thlorenz/proxyquire/tree/v1.8.0)), distributed under the [MIT License](https://github.com/thlorenz/proxyquire/blob/v1.8.0/LICENSE):
@@ -9579,7 +9509,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ### @newrelic/native-metrics
 
-This product includes source derived from [@newrelic/native-metrics](https://github.com/newrelic/node-native-metrics) ([v9.0.1](https://github.com/newrelic/node-native-metrics/tree/v9.0.1)), distributed under the [Apache-2.0 License](https://github.com/newrelic/node-native-metrics/blob/v9.0.1/LICENSE):
+This product includes source derived from [@newrelic/native-metrics](https://github.com/newrelic/node-native-metrics) ([v9.0.0](https://github.com/newrelic/node-native-metrics/tree/v9.0.0)), distributed under the [Apache-2.0 License](https://github.com/newrelic/node-native-metrics/blob/v9.0.0/LICENSE):
 
 ```
                                  Apache License
